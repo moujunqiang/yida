@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">yida</string>
+
+    <!-- 网络请求 -->
+    <string name="http_loading">Loading&#8230;</string>
+
+    <string name="http_unknown_error">http_unknown_error</string>
+    <string name="http_account_error">http_account_error</string>
+    <string name="http_data_explain_error">http_data_explain_error</string>
+    <string name="http_server_out_time">http_server_out_time</string>
+    <string name="http_network_error">http_network_error</string>
+    <string name="http_response_error">http_response_error</string>
+    <string name="http_server_error">http_server_error</string>
+    <string name="http_request_cancel">http_request_cancel</string>F
+</resources>
