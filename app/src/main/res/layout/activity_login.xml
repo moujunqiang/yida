@@ -10,7 +10,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:layout_marginLeft="63dp"
         android:layout_marginTop="214dp"
         android:layout_marginRight="63dp"
@@ -42,7 +42,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:layout_marginLeft="63dp"
         android:layout_marginRight="63dp"
         android:gravity="center_vertical"
@@ -54,6 +54,7 @@
             android:src="@mipmap/iv_login_pwd" />
 
         <EditText
+            android:background="@null"
             android:id="@+id/et_login_pwd"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

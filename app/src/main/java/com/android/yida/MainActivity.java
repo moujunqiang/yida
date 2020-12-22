@@ -35,6 +35,8 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
         mPagerAdapter = new BaseFragmentAdapter<>(this);
         mPagerAdapter.addFragment(MeFragment.newInstance());
         mPagerAdapter.addFragment(MeFragment.newInstance());
+        mPagerAdapter.addFragment(MeFragment.newInstance());
+
         // 设置成懒加载模式
         mPagerAdapter.setLazyMode(true);
         mViewPager.setAdapter(mPagerAdapter);
@@ -47,8 +49,11 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
             case R.id.menu_home:
                 mViewPager.setCurrentItem(0);
                 return true;
-            case R.id.menu_me:
+            case R.id.menu_recoment:
                 mViewPager.setCurrentItem(1);
+                return true;
+            case R.id.menu_me:
+                mViewPager.setCurrentItem(2);
                 return true;
             default:
                 break;
